@@ -16,7 +16,7 @@ fn app() -> Html {
 
     html!(
         <div class="card">
-            <h3>{"åCount: "} {*state}</h3>
+            <h3>{"Count: "} {*state}</h3>
             <div class="button-list">
                 <button onclick={incr_counter}>{"⬆ Up"}</button>
                 <button onclick={decr_counter}>{"Down ⬇"}</button>
